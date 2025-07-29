@@ -48,8 +48,8 @@ Quick Save – press g on field to save & return to menu.
 
 ### demo
 ![DEMO1](./PIC/DEMO1.png)
-![Maze RPG Logo](assets/logo.png "Game Logo")
-![Maze RPG Logo](assets/logo.png "Game Logo")
-![Maze RPG Logo](assets/logo.png "Game Logo")
-![Maze RPG Logo](assets/logo.png "Game Logo")
-
+![DEMO2](./PIC/DEMO2.png)
+![DEMO3](./PIC/DEMO3.png)
+![DEMO4](./PIC/DEMO4.png)
+![DEMO5](./PIC/DEMO5.png)
+![DEMO6](./PIC/DEMO6.png)
