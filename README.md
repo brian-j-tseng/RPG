@@ -45,3 +45,11 @@ Rename Scroll – change the hero’s name mid-game.
 Run-Away Option – attempt to flee any battle.
 
 Quick Save – press g on field to save & return to menu.
+
+### demo
+![DEMO1](./PIC/DEMO1.png)
+![Maze RPG Logo](assets/logo.png "Game Logo")
+![Maze RPG Logo](assets/logo.png "Game Logo")
+![Maze RPG Logo](assets/logo.png "Game Logo")
+![Maze RPG Logo](assets/logo.png "Game Logo")
+
