@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\player">
+      <UniqueIdentifier>{3e48d264-ef27-485f-945d-1334f0de8972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\monster">
+      <UniqueIdentifier>{63464376-19b2-4e28-a7f0-394326f9762c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\player">
+      <UniqueIdentifier>{f038bc7f-b323-4bdf-ba32-792f8c4cfc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\monster">
+      <UniqueIdentifier>{44766682-0bda-4495-85be-986561a41290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\misc">
+      <UniqueIdentifier>{69c3a78c-8264-49d4-a11d-279bc787ddc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\misc">
+      <UniqueIdentifier>{30bcdbb0-41ee-458a-9092-6d630d94ce7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\field">
+      <UniqueIdentifier>{6393fc6b-ce60-42b5-a3ec-e0ac832ead72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\field">
+      <UniqueIdentifier>{e1d2d103-67e0-4c14-b47e-e9e3b1d833d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\items">
+      <UniqueIdentifier>{05f2681a-c983-4d71-a66d-2094b469ed67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\items\armor">
+      <UniqueIdentifier>{96ba51f9-6256-4d30-a627-e25e08f05685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\items\weapon">
+      <UniqueIdentifier>{36ff71d4-15b5-4a9c-b706-f3b7aa733a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\items\consumable">
+      <UniqueIdentifier>{b1e42800-2db1-4b8f-b757-3b52e15fb921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\menu">
+      <UniqueIdentifier>{d9235cae-2f61-4205-bf6f-a9fdaf936629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\menu">
+      <UniqueIdentifier>{b1e431f8-73b5-4f9c-8f76-7eba836d4d37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="noviceplayer.h">
+      <Filter>標頭檔\player</Filter>
+    </ClInclude>
+    <ClInclude Include="orcplayer.h">
+      <Filter>標頭檔\player</Filter>
+    </ClInclude>
+    <ClInclude Include="knightplayer.h">
+      <Filter>標頭檔\player</Filter>
+    </ClInclude>
+    <ClInclude Include="magicianplayer.h">
+      <Filter>標頭檔\player</Filter>
+    </ClInclude>
+    <ClInclude Include="basemonster.h">
+      <Filter>標頭檔\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblinmonster.h">
+      <Filter>標頭檔\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="jwmonster.h">
+      <Filter>標頭檔\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombiemonster.h">
+      <Filter>標頭檔\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>標頭檔\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>標頭檔\field</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>標頭檔\items</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorItem.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="copperarmor.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="diamonarmor.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="magicrobeair.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="woodenarmor.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="magicrobepro.h">
+      <Filter>標頭檔\items\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="ironsword.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="goldensword.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="magicbookair.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="magicbookpro.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="consumableItem.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="beefsoup.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="spinach.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="treasurechest.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="changenamescroll.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="strangesoup.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="candy.h">
+      <Filter>標頭檔\items\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="sliversword.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponItem.h">
+      <Filter>標頭檔\items\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>標頭檔\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>標頭檔\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="fieldmenu.h">
+      <Filter>標頭檔\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="battlemenu.h">
+      <Filter>標頭檔\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="knightplayer.cpp">
+      <Filter>來源檔案\player</Filter>
+    </ClCompile>
+    <ClCompile Include="magicianplayer.cpp">
+      <Filter>來源檔案\player</Filter>
+    </ClCompile>
+    <ClCompile Include="noviceplayer.cpp">
+      <Filter>來源檔案\player</Filter>
+    </ClCompile>
+    <ClCompile Include="basemonster.cpp">
+      <Filter>來源檔案\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="goblinmonster.cpp">
+      <Filter>來源檔案\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="jwmonster.cpp">
+      <Filter>來源檔案\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>來源檔案\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>來源檔案\field</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="zombiemonster.cpp">
+      <Filter>來源檔案\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="orcplayer.cpp">
+      <Filter>來源檔案\player</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>來源檔案\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="fieldmenu.cpp">
+      <Filter>來源檔案\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="battlemenu.cpp">
+      <Filter>來源檔案\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
